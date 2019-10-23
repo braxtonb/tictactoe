@@ -1,0 +1,5 @@
+.Foreground {
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+}

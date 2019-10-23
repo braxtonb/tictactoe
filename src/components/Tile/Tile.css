@@ -1,0 +1,37 @@
+.Tile {
+  align-items: center;
+  border: none;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.Tile:hover:not(.disabled) {
+  background-color: rgba(200, 200, 200, .4);
+  cursor: pointer;
+}
+
+.Tile.disabled {
+  cursor: default;
+}
+
+.Tile.winner {
+  background-image: linear-gradient(to right, #cfd9df 0%, #e2ebf0 100%);
+  color: #808084;
+}
+
+.Tile.border-left {
+  border-left: 1px solid rgba(200, 200, 200, .5);
+}
+
+.Tile.border-top {
+  border-top: 1px solid rgba(200, 200, 200, .5);
+}
+
+.Tile.border-bottom {
+  border-bottom: 1px solid rgba(200, 200, 200, .5);
+}
+
+.Tile.border-right {
+  border-right: 1px solid rgba(200, 200, 200, .5);
+}

@@ -1,0 +1,19 @@
+.ModeSelect {
+  display: grid;
+  gap: 50px;
+  max-width: 900px;
+}
+
+@media (max-width: 999px) {
+  .ModeSelect {
+    grid-template-rows: repeat(3, 130px);
+  }
+}
+
+@media (min-width: 1000px) {
+  .ModeSelect {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    height: 100%;
+  }
+}

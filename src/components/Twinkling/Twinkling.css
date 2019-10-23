@@ -1,0 +1,23 @@
+.Twinkling {
+  animation: move-twinkling 200s linear infinite;
+  background: transparent url('./Twinkling.png')
+    repeat top center;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@keyframes move-twinkling {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}

@@ -1,0 +1,22 @@
+.Clouds {
+  animation: move-clouds 200s linear infinite;
+  background: transparent url('./Clouds.png') repeat top center;
+  bottom: 0;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+@keyframes move-clouds {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}

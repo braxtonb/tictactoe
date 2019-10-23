@@ -1,0 +1,19 @@
+.ResetBoardButton {
+  display: flex;
+  justify-content: center;
+}
+
+.ResetBoardButton button {
+  align-items: center;
+  background-color: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  font-size: 20px;
+  outline: none;
+  transition: background-color 0.2s linear;
+}
+
+.ResetBoardButton button:hover {
+  background-color: rgba(200, 200, 200, .95);
+  cursor: pointer;
+}
