@@ -6,8 +6,7 @@ Simple Tic Tac Toe application with single player and local multiplayer modes.
 
 ## Setup
 
-* Clone the repository
-* git clone `git@github.com:braxtonb/tictactoe.git`
+* Clone the repository `git clone git@github.com:braxtonb/tictactoe.git`
 * Run `npm start`
 
 ## Useful Links
